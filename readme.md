@@ -21,7 +21,9 @@ You've learned about OOP, but let's look at how to **incorporate object oriented
 What are some categories of objects we might want to build when writing the code for a Memory game?
 
 <details><summary>click to see examples</summary>
+
   Did you think of making a `Card` object type? A `Game`?
+  
 </details>
 
 <br>
