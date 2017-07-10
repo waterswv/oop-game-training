@@ -5,9 +5,9 @@ Location: SF
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-#Training: Model a Game with OOP
+# Training: Model a Game with OOP
 
-You've learned about OOP, but let's look at how to **incorporate ojbect oriented programming patterns into a web site**.  This document has an example of how we might approach making a card-matching memory game.
+You've learned about OOP, but let's look at how to **incorporate object oriented programming patterns into a web site**.  This document has an example of how we might approach making a card-matching memory game.
 
 ### User Stories & Game Mechanics
 1. A user can see a set of face-down cards.
@@ -72,13 +72,15 @@ Work with a partner to list some properties and methods of cards, the game itsel
   - `celebrate()` (Function - display a win message)
 </details>
 
-### Development Stories
+### User Stories
 
-1. A user can see a set of face-down cards.
+We build "user stories" as a way to structure the main capabilities of the sites we build. These stories are often phrased as "a user will be able to..." and make sure they discribe how the site will work. Each user story can be broken down into the tasks that will be required to make this functionality possible.
+
+1. A user will be able to see a set of face-down cards.
   * Create HTML structure to display cards on screen (Handlebars?).
   * Ensure that cards start out displayed face-down (in `Card` constructor?).
 
-2. A user can select a card to "flip it over" and see its other side.
+2. A user will be able to select a card to "flip it over" and see its other side.
   * Add click event listener to cards that:
      - shows the other side of the card (`flipOver`)
      - creates or updates a pair (don't add same card twice though!)
