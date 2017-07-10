@@ -118,6 +118,29 @@ We build "user stories" as a way to structure the main capabilities of the sites
 
 Design user stories, data structures, development stories, and potential challenges for a **racing game** in which two players use the keyboard to control "cars" that race across the screen.
 
+#### Story Point 1:
+#### Define what the game basics entail.
+* 2 seperate players will race across the screen using the same keyboard & screen. 
+* Define what the 2 players are represented with, 2 separate images
+* Player 1 will use keystrokes on the left side **A, W, S, and, D**
+* Player 2 will use keystrokes on the left side **O, K, L, and, ;**
+* Random objects will show up inline for each player that forces a vertical move.
+* A number of horizontal moves needs to be established as the finish line for declaring a winner.
+* A unix timer should track how long it takes a player to win and then convert it to minutes:seconds for display on screen
+* 
+
+### Story Point 2:
+#### Define what objects will need to be created to build the game basics. 
+* Car/Player Object
+* Racetrack Object
+* Obstacles Object
+* Timer Object
+* Current Race Object
+
+### Story Point 3:
+#### Define how objects will interact to play the game.
+* 2 Car Objects will 
+
 Here are some popular bonus features that would affect your data structure plan:
 
 1. How would you make your player's "cars" use custom images?
