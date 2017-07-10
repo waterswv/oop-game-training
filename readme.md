@@ -10,15 +10,15 @@ Location: SF
 You've learned about OOP, but let's look at how to **incorporate object oriented programming patterns into a web site**.  This document has an example of how we might approach making a card-matching memory game.
 
 ### User Stories & Game Mechanics
-1. A user can see a set of face-down cards.
-2. A user can select a card to "flip it over" and see its other side.
+1. A user will be able to see a set of face-down cards.
+2. A user will be able to select a card to "flip it over" and see its other side.
 3. If the user flips two matching cards face-up at the same time, the cards will be removed from the game.
 4. If the user flips two non-matching cards face-up at the same time, both cards will turn back face down.
 5. The user wins when they've matched all the cards!
 
 ### Check for Understanding
 
-What are some data structures we might use when building a Memory game?
+What are some categories of objects we might want to build when writing the code for a Memory game?
 
 <details><summary>click to see examples</summary>
   Did you think of making a `Card` object type? A `Game`?
